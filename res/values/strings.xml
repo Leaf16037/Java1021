@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finalproject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_buy">Buy</string>
+    <string name="title_activity_introduce">Introduce</string>
+    <string name="title_activity_search">Search</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>  
+   <color name="Pink_Color">#ff00ff</color> 
+   <color name="LightGreen_Color">#28ff28</color>
+   <color name="Black_Color">#000000</color> 
+   <color name="White_Color">#ffffff</color> 
+   <color name="Blue_Color">#0000ff</color> 
+   <color name="Magenta_Color">#ff00ff</color> 
+   <color name="DeepSky_Color">#00b2ee</color> 
+   <color name="Yellow_Color">#ffff6f</color>    
+</resources>

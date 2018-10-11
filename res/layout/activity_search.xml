@@ -1,0 +1,107 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Black_Color">
+      <TableRow>
+          <TextView
+             
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"      
+              android:text="出貨"
+              android:textSize="35sp"
+              android:textColor="@color/Yellow_Color" />
+            </TableRow>
+    
+    <TableRow>
+            <TextView
+              android:id="@+id/show_Ch01_Ex02_TextView01"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"      
+              android:text="商品名稱:"
+              android:textSize="24sp"
+              android:textColor="@color/White_Color" />
+            <EditText
+              android:id="@+id/show_Ch01_Ex02_EditText01" 
+              android:layout_width="200sp"
+              android:layout_height="wrap_content"
+              android:background="@color/White_Color"
+              android:text="">                
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView
+              android:id="@+id/show_Ch01_Ex02_TextView02"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"      
+              android:text="數量: "
+              android:textSize="24sp"
+              android:textColor="@color/White_Color" />
+            <EditText
+              android:id="@+id/show_Ch01_Ex02_EditText02" 
+              android:layout_width="200sp"
+              android:layout_height="wrap_content"
+              android:maxLength="36"
+              android:background="@color/White_Color"
+              android:text="" >                
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView
+              android:id="@+id/show_Ch01_Ex02_TextView03"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"      
+              android:text="日期: "
+              android:textSize="24sp"
+              android:textColor="@color/White_Color" />
+            <EditText
+              android:id="@+id/show_Ch01_Ex02_EditText03" 
+              android:layout_width="200sp"
+              android:layout_height="wrap_content"
+              android:phoneNumber="true"
+              android:background="@color/White_Color"
+              android:text="" >                
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView
+              android:id="@+id/show_Ch01_Ex02_TextView04"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"      
+              android:text="單價 : "
+              android:textSize="24sp"
+              android:textColor="@color/White_Color" />
+            <EditText
+              android:id="@+id/show_Ch01_Ex02_EditText04" 
+              android:layout_width="200sp"
+              android:layout_height="wrap_content"
+              android:background="@color/White_Color"
+              android:text="" >                
+            </EditText>
+        </TableRow>
+      
+        <TableRow>
+            <Button 
+               android:layout_width="wrap_content" 
+               android:layout_height="wrap_content"   
+               android:text=" 重新輸入  " 
+               android:textColor="@color/White_Color"
+               android:id="@+id/show_Ch01_Ex02_Button01">                
+            </Button>
+            <Button 
+               android:layout_width="wrap_content" 
+               android:layout_height="wrap_content"   
+               android:text="確認出貨"
+               android:textColor="@color/White_Color"
+               android:id="@+id/show_Ch01_Ex02_Button02">                
+            </Button>
+             </TableRow>
+            <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+               android:textColor="@color/White_Color"
+            android:text="更改資料" />
+
+        
+
+</TableLayout>    
